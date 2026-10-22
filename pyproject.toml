@@ -1,0 +1,27 @@
+[project]
+name = "jijmodeling-webinar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "certifi==2026.10.18",
+    "grpcio==1.84.0",
+    "jijmodeling==2.9.1",
+    "jijzept-solver==2.0.0b1",
+    "jupyter>=1.1.1",
+    "numpy==2.4.6 ; python_full_version < '3.12'",
+    "numpy==2.5.4 ; python_full_version >= '3.12'",
+    "ommx==2.8.0",
+    "ommx-openjij-adapter>=2.8.0",
+    "ommx-pyscipopt-adapter>=2.8.0",
+    "orjson==3.13.0",
+    "pandas==2.3.3",
+    "protobuf==5.29.6",
+    "pyarrow==25.0.1",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2026.5",
+    "six==1.17.0",
+    "typing-extensions==4.16.0",
+    "tzdata==2026.5",
+]
